@@ -1,4 +1,4 @@
-# Gmail Unread Cleaner
+# Unread Emails Cleaner
 
 A safe, automated Python utility designed to clean up unread emails by year in Gmail using IMAP with `UID` commands. It includes safeguards to protect important senders, specific domains, and top-level domain extensions (`.gov`, `.ca`, etc.) from accidental deletion.
 
