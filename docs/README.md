@@ -30,6 +30,11 @@ cp config.example.py config.py
 3. Add your Gmail address and a 16-character App Password:
 
 ```
+# --- SERVER SETTINGS ---
+# DEFAULT: "imap.gmail.com" for standard Gmail accounts.
+# ⚠️ DO NOT CHANGE THIS unless you are using a different email provider!
+IMAP_SERVER = "imap.gmail.com"  # Outlook: "outlook.office365.com", Yahoo: "imap.mail.yahoo.com"
+
 EMAIL_ADDRESS = "yourname@gmail.com"
 APP_PASSWORD = "abcd efgh ijkl mnop"
 ```
